@@ -1,9 +1,9 @@
 # Latex-templates
 
-This file is to store my templates for articles and slides. 
+This repository is to store my templates for articles and slides. 
 
 1. Latex preamble  
-This is a preamble to include in a Latex file. 
+This is a preamble of Latex to include for documents. 
 
 2. Beamer template  
 This is a template of Lyx for slides.
