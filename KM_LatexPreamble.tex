@@ -1,0 +1,68 @@
+%% LyX 2.3.5.2 created this file.  For more info, see http://www.lyx.org/.
+%% Do not edit unless you really know what you are doing.
+
+% document style
+\documentclass[12pt]{article}
+\usepackage[a4paper]{geometry}
+\usepackage{setspace}
+\onehalfspacing
+\setstretch{1.5}
+\geometry{margin = 0.8in}
+\geometry{centering}
+\geometry{includefoot}
+\usepackage{authblk}
+
+% bib
+\usepackage[authoryear]{natbib}
+
+% fonts
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+% \usepackage{lmodern}
+\usepackage{mathpazo}
+\usepackage[american,german,french,british]{babel}
+
+% microtype
+\usepackage[activate={true,nocompatibility}]{microtype}
+
+% math
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+
+% other packages
+\usepackage{pdflscape} % Landscape
+\usepackage{enumitem}
+\usepackage{indentfirst}
+\usepackage{url}
+\usepackage{tikz}
+\usepackage{ragged2e}
+
+% figure/table title setting
+\usepackage{caption}
+\captionsetup{labelformat=empty}
+\captionsetup[subfigure]{labelformat=empty}
+
+% section style
+\definecolor{ChadBlue}{rgb}{.1,.1,.5} 
+\definecolor{ChadGreen}{rgb}{0,.4,0}   
+
+\makeatletter
+
+\let\LaTeXtitle\title
+\renewcommand{\title}[1]{\LaTeXtitle{\color{ChadBlue}{\LARGE #1}}}
+\renewcommand{\abstractname}{\color{ChadBlue}Abstract}
+\renewcommand{\figurename}{\color{ChadBlue}Figure}
+\renewcommand{\tablename}{\color{ChadBlue}Table}
+
+\let\LaTeX@startsection\@startsection 
+\renewcommand{\@startsection}[6]{\LaTeX@startsection%
+{#1}{#2}{#3}{#4}{#5}{\color{ChadBlue}\raggedright #6}} 
+
+\newcommand{\runningheads}[2]{
+   \chead[\color{ChadGreen}{\uppercase {\footnotesize #1}}]  % Author page header
+   {\color{ChadGreen}{\uppercase {\footnotesize #2}}}  % Short title
+  }
+
+\makeatother
