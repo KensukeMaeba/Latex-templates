@@ -40,7 +40,7 @@
 
 % other packages
 \usepackage{pdflscape} % Landscape
-%\usepackage{enumitem}
+\usepackage{enumitem}
 \usepackage{indentfirst}
 \usepackage{url}
 \usepackage{tikz}
