@@ -15,7 +15,7 @@
 \setbeamertemplate{footline}[frame number]{}
 \setbeamertemplate{navigation symbols}{}
 \setbeamertemplate{itemize item}[circle]
-\setbeamertemplate{itemize subitem}[triangle]
+\setbeamertemplate{itemize subitem}{--}
 \setbeamertemplate{mini frames}{}
 \setbeamersize{text margin left=10mm,text margin right=8mm} 
 \useoutertheme[footline=empty,subsection=false]{miniframes}
