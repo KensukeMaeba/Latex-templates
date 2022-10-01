@@ -24,9 +24,9 @@
 
 % fonts
 \usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
-\usepackage{lmodern}
-%\usepackage{mathpazo}
+%\usepackage[T1]{fontenc}
+%\usepackage{lmodern}
+\usepackage{mathpazo}
 \usepackage[american,german,french,british]{babel}
 
 % microtype
@@ -51,15 +51,12 @@
 
 % figure and table title setting
 \usepackage{caption}
-\usepackage{subcaption}
 \captionsetup{labelformat=empty}
 \captionsetup[subfigure]{labelformat=empty}
-\usepackage[para,flushleft]{threeparttable}
-\usepackage{booktabs}
 
-% section style
 \makeatletter
 
+% section style
 \definecolor{ChadBlue}{rgb}{.1,.1,.5} 
 \definecolor{ChadGreen}{rgb}{0,.4,0}   
 

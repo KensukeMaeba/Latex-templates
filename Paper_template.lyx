@@ -159,11 +159,91 @@ enumitem
 \begin_body
 
 \begin_layout Title
-Lyx Document Template
+Title
+\end_layout
+
+\begin_layout Title
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Footnote in the title page.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Author
-Kensuke Maeba
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+Kensuke Maeba 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+small Northwestern University
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Date
+Date
+\end_layout
+
+\begin_layout Abstract
+To be added.
+\end_layout
+
+\begin_layout Abstract
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Abstract
+JEL codes:
+\end_layout
+
+\begin_layout Abstract
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Abstract
+Key words:
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pagebreak
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_body
